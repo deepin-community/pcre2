@@ -18,6 +18,7 @@ libpcre2-16.so.0 libpcre2-16-0 #MINVER#
  pcre2_general_context_free_16@Base 10.22
  pcre2_get_error_message_16@Base 10.22
  pcre2_get_mark_16@Base 10.22
+ pcre2_get_match_data_heapframes_size_16@Base 10.43
  pcre2_get_match_data_size_16@Base 10.34
  pcre2_get_ovector_count_16@Base 10.22
  pcre2_get_ovector_pointer_16@Base 10.22
@@ -54,6 +55,7 @@ libpcre2-16.so.0 libpcre2-16-0 #MINVER#
  pcre2_set_heap_limit_16@Base 10.32
  pcre2_set_match_limit_16@Base 10.22
  pcre2_set_max_pattern_length_16@Base 10.22
+ pcre2_set_max_varlookbehind_16@Base 10.43
  pcre2_set_newline_16@Base 10.22
  pcre2_set_offset_limit_16@Base 10.22
  pcre2_set_parens_nest_limit_16@Base 10.22
