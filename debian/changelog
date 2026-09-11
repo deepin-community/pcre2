@@ -5,6 +5,10 @@ pcre2 (10.46-1deepin2) unstable; urgency=medium
     Upstream:
     https://github.com/PCRE2Project/pcre2/commit/edc111a6831591f68b5355a
     08cc9df8be8f35304
+  * fix(cve): CVE-2026-89157 (unknown) - Use CU2BYTES for byte sizing in
+    two allocation sites (#909)   Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/8156b3989a82f2ddf9504d8
+    248496e9b124be7f3
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 11 Sep 2026 22:18:52 +0800
 
