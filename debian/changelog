@@ -9,6 +9,9 @@ pcre2 (10.46-1deepin2) unstable; urgency=medium
     two allocation sites (#909)   Upstream:
     https://github.com/PCRE2Project/pcre2/commit/8156b3989a82f2ddf9504d8
     248496e9b124be7f3
+  * fix(cve): CVE-2026-89161 (unknown) - Fix leak & stale
+    PCRE2_MD_COPIED_SUBJECT if pcre2_jit_match used with existing match
+    context   Upstream: https://github.com/PCRE2Project/pcre2/pull/937
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 11 Sep 2026 22:18:52 +0800
 
