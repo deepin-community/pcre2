@@ -12,6 +12,10 @@ pcre2 (10.46-1deepin2) unstable; urgency=medium
   * fix(cve): CVE-2026-89161 (unknown) - Fix leak & stale
     PCRE2_MD_COPIED_SUBJECT if pcre2_jit_match used with existing match
     context   Upstream: https://github.com/PCRE2Project/pcre2/pull/937
+  * fix(cve): CVE-2026-89160 (unknown) - Fix invalid UTF backwards-scan
+    reads; see GHSA-9qww-pwc4-77qq for details   Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/4889caf31a4c5a6b3c051f0
+    031bf2dbd78f2c287.patch
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 11 Sep 2026 22:18:52 +0800
 
