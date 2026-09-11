@@ -16,6 +16,10 @@ pcre2 (10.46-1deepin2) unstable; urgency=medium
     reads; see GHSA-9qww-pwc4-77qq for details   Upstream:
     https://github.com/PCRE2Project/pcre2/commit/4889caf31a4c5a6b3c051f0
     031bf2dbd78f2c287.patch
+  * fix(cve): CVE-2026-89158 (unknown) - Fix compiler integer overflows;
+    see GHSA-fmgr-6ggq-9859 for details   Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/ec9c286d5c10cf1c388b58a
+    442ccefded42254fd
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 11 Sep 2026 22:18:52 +0800
 
