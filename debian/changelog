@@ -1,5 +1,6 @@
 pcre2 (10.46-1deepin2) unstable; urgency=medium
 
+  [ deepin-ci-robot ]
   * fix(cve): CVE-2026-89162 (unknown) - [PATCH] Write padding values to
     ensure pcre2_serialize_encode() outputs defined values (#826)
     Upstream:
@@ -20,6 +21,11 @@ pcre2 (10.46-1deepin2) unstable; urgency=medium
     see GHSA-fmgr-6ggq-9859 for details   Upstream:
     https://github.com/PCRE2Project/pcre2/commit/ec9c286d5c10cf1c388b58a
     442ccefded42254fd
+
+  [ lichenggang ]
+  * Switch debian/source/format to 3.0 (quilt) so that dpkg-source
+    applies debian/patches/series during the build; the 1.0 format
+    ignores it, so the CVE patches never reached the binaries.
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 11 Sep 2026 22:18:52 +0800
 

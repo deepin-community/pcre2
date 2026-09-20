@@ -1,0 +1,3 @@
+# The .github/ CI files are added by the deepin-community tooling and are not
+# part of the upstream tarball; keep them out of the generated source diff.
+extend-diff-ignore = "^\.github/"
