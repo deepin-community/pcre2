@@ -1,8 +1,33 @@
 pcre2 (10.46-1deepin2) unstable; urgency=medium
 
-  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+  [ deepin-ci-robot ]
+  * fix(cve): CVE-2026-89162 (unknown) - [PATCH] Write padding values to
+    ensure pcre2_serialize_encode() outputs defined values (#826)
+    Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/edc111a6831591f68b5355a
+    08cc9df8be8f35304
+  * fix(cve): CVE-2026-89157 (unknown) - Use CU2BYTES for byte sizing in
+    two allocation sites (#909)   Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/8156b3989a82f2ddf9504d8
+    248496e9b124be7f3
+  * fix(cve): CVE-2026-89161 (unknown) - Fix leak & stale
+    PCRE2_MD_COPIED_SUBJECT if pcre2_jit_match used with existing match
+    context   Upstream: https://github.com/PCRE2Project/pcre2/pull/937
+  * fix(cve): CVE-2026-89160 (unknown) - Fix invalid UTF backwards-scan
+    reads; see GHSA-9qww-pwc4-77qq for details   Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/4889caf31a4c5a6b3c051f0
+    031bf2dbd78f2c287.patch
+  * fix(cve): CVE-2026-89158 (unknown) - Fix compiler integer overflows;
+    see GHSA-fmgr-6ggq-9859 for details   Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/ec9c286d5c10cf1c388b58a
+    442ccefded42254fd
 
- -- tunaichao <tunaichao@uniontech.com>  Fri, 11 Sep 2026 17:31:48 +0800
+  [ lichenggang ]
+  * Switch debian/source/format to 3.0 (quilt) so that dpkg-source
+    applies debian/patches/series during the build; the 1.0 format
+    ignores it, so the CVE patches never reached the binaries.
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 11 Sep 2026 22:18:52 +0800
 
 pcre2 (10.46-1deepin1) unstable; urgency=medium
 
