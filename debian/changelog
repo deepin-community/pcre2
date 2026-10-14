@@ -1,3 +1,12 @@
+pcre2 (10.46-1deepin3) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-103111 (unknown) - Fix large JIT stack allocation
+    Upstream:
+    https://github.com/PCRE2Project/pcre2/commit/2b4038298072684b0fae29b
+    15bedfb1a75bda46d
+
+ -- deepin-ci-robot <packages@deepin.org>  Wed, 14 Oct 2026 11:47:00 +0800
+
 pcre2 (10.46-1deepin2) unstable; urgency=medium
 
   [ deepin-ci-robot ]
